@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünler - Proscience</title>
+
+    <!-- Harici Kütüphaneler (Bootstrap, Font Awesome) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- KENDİ STİL DOSYAMIZ -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ============================================== -->
+    <!-- ============ NAVIGATION BAŞLANGIÇ ============ -->
+    <!-- ============================================== -->
+    <nav class="main-nav solid-nav" id="navbar">
+        <a href="index.html" class="nav-logo">
+            <img src="https://i.hizliresim.com/pnb56pm.png" alt="Proscience Logo">
+        </a>
+        <div class="nav-menu-wrapper">
+            <ul class="nav-menu">
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="urunler2.html" class="active">Ürünler</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="index.html#contact">İletişim</a></li>
+                <li><a href="?lang=en">EN</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
+    <!-- ============================================== -->
+    <!-- ============== NAVIGATION BİTİŞ ============== -->
+    <!-- ============================================== -->
+
+    <!-- ============================================== -->
+    <!-- ============ ÜRÜN LİSTESİ BAŞLANGIÇ ========== -->
+    <!-- ============================================== -->
+    <main class="product-listing-page">
+        <div class="container">
+            <div class="row">
+                <!-- FİLTRELEME SÜTUNU (SOL) -->
+                <div class="col-lg-3">
+                    <aside class="filter-sidebar">
+                        <div class="filter-group">
+                            <h3 class="filter-title">Hayvan Türü</h3>
+                            <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="tur" value="kedi"> Kedi</label>
+                            </div>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="tur" value="kopek"> Köpek</label>
+                            </div>
+                        </div>
+
+                        <div class="filter-group">
+                            <h3 class="filter-title">Irk Boyutu</h3>
+                            <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="irk" value="mini"> Mini Irk</label>
+                            </div>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="irk" value="orta-buyuk"> Orta & Büyük Irk</label>
+                            </div>
+                        </div>
+
+                        <div class="filter-group">
+                            <h3 class="filter-title">Yaş Grubu</h3>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="yas" value="anne-bebek"> Emziren Anne ve Bebek</label>
+                            </div>
+                            <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="yas" value="yavru"> Yavru (Kitten/Puppy)</label>
+                            </div>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="yas" value="yetiskin"> Yetişkin (Adult)</label>
+                            </div>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="yas" value="kisirlastirilmis"> Kısırlaştırılmış (Sterilised)</label>
+                            </div>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="yas" value="light"> Light</label>
+                            </div>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <h3 class="filter-title">Özellikler</h3>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="ozellik" value="hipoalerjenik"> Hipoalerjenik</label>
+                            </div>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="ozellik" value="dusuk-tahilli"> Düşük Tahıllı</label>
+                            </div>
+                        </div>
+
+                        <div class="filter-group">
+                            <h3 class="filter-title">Akdeniz Lezzeti</h3>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="lezzet" value="kizilcik"> Kızılcık</label>
+                            </div>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="lezzet" value="yabanmersini"> Yaban Mersini</label>
+                            </div>
+                            <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="lezzet" value="ahududu"> Ahududu</label>
+                            </div>
+                            <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="lezzet" value="bogurtlen"> Böğürtlen</label>
+                            </div>
+                            <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="lezzet" value="nar"> Nar</label>
+                            </div>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <h3 class="filter-title">Gramaj</h3>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="gramaj" value="2kg"> 2 KG</label>
+                            </div>
+                             <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="gramaj" value="12kg"> 12 KG</label>
+                            </div>
+                            <div class="filter-option">
+                                <label><input type="checkbox" data-filter-group="gramaj" value="15kg"> 15 KG</label>
+                            </div>
+                        </div>
+
+                    </aside>
+                </div>
+
+                <!-- ÜRÜN VİTRİNİ (SAĞ) -->
+                <div class="col-lg-9">
+                    <div class="product-grid-header">
+                        <div class="view-options">
+                            <i class="fa-solid fa-grip"></i>
+                            <i class="fa-solid fa-list"></i>
+                        </div>
+                        <div class="sort-options">
+                            <select class="form-select">
+                                <option selected>Sırala</option>
+                                <option value="1">Yeni Gelenler</option>
+                            </select>
+                        </div>
+                        <div class="product-count">
+                            <span id="product-count-span">0</span> ÜRÜN
+                        </div>
+                    </div>
+
+                    <div class="row" id="product-grid">
+                        <!-- Ürünler buraya JavaScript ile yüklenecek -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ============================================== -->
+    <!-- ============= ÜRÜN LİSTESİ BİTİŞ ============= -->
+    <!-- ============================================== -->
+
+
+    <!-- ============================================== -->
+    <!-- ============== FOOTER BAŞLANGIÇ ============== -->
+    <!-- ============================================== -->
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="footer-logo">
+                <a href="#">
+                    <img src="https://i.hizliresim.com/6kptn9k.png" alt="Resonance Logo">
+                </a>
+            </div>
+            <ul class="social-icons">
+                <li><a href="https://wa.me/905xxxxxxxxx" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+            <div class="other-brands">
+                <ul class="brands-list">
+                    <li>Temizmama</li>
+                    <li>Bonacibo</li>
+                    <li>Decent</li>
+                    <li>Micho</li>
+                    <li>Mito</li>
+                    <li>Kennel</li>
+                    <li>Kucho</li>
+                </ul>
+            </div>
+            <div class="footer-copy">
+                © 2025 Proscience<span class="r-icon">®</span> All rights reserved. Design by www.mindversestudio.com
+            </div>
+        </div>
+    </footer>
+    <!-- ============================================== -->
+    <!-- ================ FOOTER BİTİŞ ================ -->
+    <!-- ============================================== -->
+
+    <!-- KENDİ SCRIPT DOSYAMIZ -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": "yavru-kedi",
+      "tur": "kedi",
+      "yas": "yavru",
+      "irk": "",
+      "ozellik": "dusuk-tahilli",
+      "lezzet": "tavuk nar",
+      "gramaj": "2kg 12kg",
+      "name": "Yavru Kedi Maması (Kitten)",
+      "image": "https://i.hizliresim.com/tdew7ae.png",
+      "seo_description": "Proscience Yavru Kedi Maması, yüksek protein ve düşük tahıl içeriği ile kedinizin sağlıklı gelişimini destekler.",
+      "seo_keywords": "yavru kedi maması, proscience kitten, düşük tahıllı kedi maması, tavuklu narlı kedi maması",
+      "description": "Yavru kedinizin sağlıklı büyüme ve gelişimi için özel olarak formüle edilmiş, yüksek proteinli ve sindirimi kolay tam mamadır.",
+      "thumbnails": [
+        "https://i.hizliresim.com/tdew7ae.png",
+        "https://i.hizliresim.com/34j81fh.JPG",
+        "https://i.hizliresim.com/ldilqc6.JPG"
+      ],
+      "tags": ["Yüksek Protein", "Düşük Tahıl", "Taurin Destekli", "Yavru Kedi", "Lezzet Garantili"],
+      "barkod": {
+        "2kg": "8698995001234",
+        "12kg": "8698995005678"
+      },
+      "analiz": {
+        "Ham Protein": "%38.0",
+        "Ham Yağ": "%18.0",
+        "Ham Kül": "%8.0"
+      },
+      "icindekiler": {
+        "Ana Bileşenler": "Kurutulmuş Tavuk Proteini (%45), Baldo Pirinç (%14), Mısır, Rafine Tavuk Yağı, Hamsi Unu (%7).",
+        "Vitamin ve Mineraller": "Vitamin A, Vitamin D3, Vitamin E, Taurin, Niasin, Çinko Sülfat, Bakır Sülfat."
+      },
+      "faydalar": [
+        "Sağlıklı büyüme ve kas gelişimini destekler.",
+        "Parlak tüyler ve sağlıklı bir cilt yapısı sağlar.",
+        "Bağışıklık sistemini güçlendirir."
+      ]
+    },
+    {
+      "id": "yetiskin-kopek",
+      "tur": "kopek",
+      "yas": "yetiskin",
+      "irk": "orta-buyuk",
+      "ozellik": "hipoalerjenik",
+      "lezzet": "kuzu yabanmersini",
+      "gramaj": "15kg",
+      "name": "Yetişkin Köpek Maması (Adult)",
+      "image": "https://i.hizliresim.com/tdew7ae.png",
+      "seo_description": "Proscience Hipoalerjenik Yetişkin Köpek Maması, hassas sindirime sahip orta ve büyük ırk köpekler için idealdir.",
+      "seo_keywords": "yetişkin köpek maması, proscience adult, hipoalerjenik köpek maması, kuzulu köpek maması",
+      "description": "Yetişkin köpeğinizin tüm besin ihtiyaçlarını karşılayan, dengeli ve lezzetli tam mamadır.",
+      "thumbnails": [
+        "https://i.hizliresim.com/tdew7ae.png",
+        "https://i.hizliresim.com/34j81fh.JPG",
+        "https://i.hizliresim.com/ldilqc6.JPG"
+      ],
+      "tags": ["Gerçek Et", "Güçlü Kemikler", "Hipoalerjenik", "Yetişkin Köpek"],
+      "barkod": {
+        "15kg": "8698995009876"
+      },
+      "analiz": {
+        "Ham Protein": "%27.0",
+        "Ham Yağ": "%12.0",
+        "Ham Kül": "%8.0"
+      },
+      "icindekiler": {
+        "Ana Bileşenler": "Kurutulmuş Kuzu Proteini (%30), Baldo Pirinç (%16), Mısır, Rafine Tavuk Yağı.",
+        "Vitamin ve Mineraller": "Vitamin A, Vitamin D3, Vitamin E, Biotin, Çinko, Bakır."
+      },
+      "faydalar": [
+        "Güçlü kas ve kemik yapısını destekler.",
+        "Sağlıklı sindirim sistemi sağlar.",
+        "Optimal kilo kontrolüne yardımcı olur."
+      ]
+    },
+    {
+      "id": "kisir-kedi",
+      "tur": "kedi",
+      "yas": "kisirlastirilmis",
+      "irk": "",
+      "ozellik": "dusuk-tahilli",
+      "lezzet": "somon ahududu",
+      "gramaj": "2kg 12kg",
+      "name": "Kısırlaştırılmış Kedi Maması",
+      "image": "https://i.hizliresim.com/tdew7ae.png",
+      "seo_description": "Kısırlaştırılmış kediler için özel olarak geliştirilmiş Proscience kedi maması, kilo kontrolü ve üriner sağlık desteği sunar.",
+      "seo_keywords": "kısır kedi maması, sterilised kedi maması, proscience somonlu, kilo kontrollü mama",
+      "description": "Kısırlaştırılmış kedinizin kilo kontrolünü sağlayan ve üriner sistem sağlığını destekleyen özel formül.",
+       "thumbnails": [
+        "https://i.hizliresim.com/tdew7ae.png",
+        "https://i.hizliresim.com/34j81fh.JPG",
+        "https://i.hizliresim.com/ldilqc6.JPG"
+      ],
+      "tags": ["Kilo Kontrolü", "Üriner Sağlık", "Doğal Lifler", "Kısırlaştırılmış"],
+       "barkod": {
+        "2kg": "8698995001122",
+        "12kg": "8698995002233"
+      },
+      "analiz": {
+        "Ham Protein": "%34.0",
+        "Ham Yağ": "%12.0",
+        "Ham Kül": "%7.0"
+      },
+      "icindekiler": {
+        "Ana Bileşenler": "Kurutulmuş Somon Proteini (%35), Baldo Pirinç (%12), Mısır, Rafine Tavuk Yağı.",
+        "Vitamin ve Mineraller": "Vitamin A, Vitamin D3, Vitamin E, L-Karnitin, Taurin."
+      },
+      "faydalar": [
+        "İdeal kilonun korunmasına yardımcı olur.",
+        "Böbrek ve idrar yolları sağlığını destekler.",
+        "Tüy yumağı oluşumunu azaltır."
+      ]
+    }
+  ]
+}
+
+
+
